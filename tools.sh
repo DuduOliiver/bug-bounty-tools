@@ -15,6 +15,9 @@ go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
 # Instalação do gau
 go install github.com/lc/gau/v2/cmd/gau@latest
 
+# Instalação do gauplus
+go install github.com/bp0lr/gauplus@latest
+
 # Instalação do goop
 go install github.com/deletescape/goop@latest
 
@@ -50,6 +53,20 @@ go install github.com/ferreiraklet/airixss@latest
 
 # Instalação do nilo
 go install github.com/ferreiraklet/nilo@latest
+
+# Instalação do httpx
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+
+# Instalação do hakcheckurl
+go install github.com/hakluke/hakcheckurl@latest
+
+
+
+# Instalação do subjs
+wget https://github.com/lc/subjs/releases/download/v1.0.1/subjs_1.0.1_linux_amd64.tar.gz
+tar xvf subjs_1.0.1_linux_amd64.tar.gz
+sudo mv subjs /usr/bin/subjs
+
 
 # Instalação do dnsvalidator
 git clone https://github.com/vortexau/dnsvalidator.git
