@@ -1,5 +1,18 @@
 #!/bin/bash
 
+#Execute dentro de uma pasta separada para instalar ferramentas que precisam do python
+
+font="
+d8888b. db    db  d888b  d8888b.  .d88b.  db    db d8b   db d888888b db    db d888888b  .d88b.   .d88b.  db      .d8888. 
+88  \`8D 88    88 88' Y8b 88  \`8D .8P  Y8. 88    88 888o  88 \`~~88~~' \`8b  d8' \`~~88~~' .8P  Y8. .8P  Y8. 88      88'  YP 
+88oooY' 88    88 88      88oooY' 88    88 88    88 88V8o 88    88     \`8bd8'     88    88    88 88    88 88      \`8bo.   
+88~~~b. 88    88 88  ooo 88~~~b. 88    88 88    88 88 V8o88    88       88       88    88    88 88    88 88        \`Y8b. 
+88   8D 88b  d88 88. ~8~ 88   8D \`8b  d8' 88b  d88 88  V888    88       88       88    \`8b  d8' \`8b  d8' 88booo. db   8D 
+Y8888P' ~Y8888P'  Y888P  Y8888P'  \`Y88P'  ~Y8888P' VP   V8P    YP       YP       YP     \`Y88P'   \`Y88P'  Y88888P \`8888Y' 
+"
+
+echo -e "$font"
+
 # Instalação do subfinder
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
