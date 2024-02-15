@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Instalação do subfinder
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
+# Instalação do getJS
+go install github.com/003random/getJS@latest
+
 # Instalação do Amass
 go install -v github.com/owasp-amass/amass/v3/...@master
 
@@ -60,13 +66,13 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 # Instalação do hakcheckurl
 go install github.com/hakluke/hakcheckurl@latest
 
-
+# Instalação do jsubfinder
+go install github.com/ThreatUnkown/jsubfinder@latest
 
 # Instalação do subjs
 wget https://github.com/lc/subjs/releases/download/v1.0.1/subjs_1.0.1_linux_amd64.tar.gz
 tar xvf subjs_1.0.1_linux_amd64.tar.gz
 sudo mv subjs /usr/bin/subjs
-
 
 # Instalação do dnsvalidator
 git clone https://github.com/vortexau/dnsvalidator.git
@@ -93,3 +99,11 @@ cd knock
 pip3 install -r requirements.txt
 python3 knockpy.py --help
 cd ..
+
+# Instalação do JSScaner
+git clone https://github.com/0x240x23elu/JSScanner.git
+cd JSScanner
+pip3 install -r  requirements.txt
+cd ..
+
+
